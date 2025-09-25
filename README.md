@@ -7,8 +7,13 @@
 <h2 align="center">Bookmark important files and/or links for your projects.</h2>
 
 <p align="center">
-  <a href="https://github.com/sponsors/estruyf" title="Become a sponsor" style="margin-left:10px">
-    <img src="https://img.shields.io/github/sponsors/estruyf?color=%23CE2E7C&logo=github&style=flat" alt="Sponsor the project" style="display: inline-block" />
+  <strong>This is a fork of the original <a href="https://github.com/estruyf/vscode-squarl">Squarl Bookmarks</a> extension by <a href="https://github.com/estruyf">Elio Struyf</a></strong><br>
+  <em>Maintained by <a href="https://github.com/trevSmart">trevSmart</a> with visual improvements and updates</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/sponsors/estruyf" title="Sponsor the original creator" style="margin-left:10px">
+    <img src="https://img.shields.io/github/sponsors/estruyf?color=%23CE2E7C&logo=github&style=flat" alt="Sponsor the original project" style="display: inline-block" />
   </a>
 </p>
 
@@ -160,6 +165,7 @@ Example:
 ## Contributors ✨
 
 <p align="center">
+  <strong>Original contributors to the <a href="https://github.com/estruyf/vscode-squarl">upstream project</a>:</strong><br>
   <a href="https://github.com/estruyf/vscode-squarl/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=estruyf/vscode-squarl" />
   </a>
@@ -167,11 +173,13 @@ Example:
 
 ## Contributing / Issues / feedback
 
-If you want to contribute, you are more than welcome to do so. Feel free to start by opening an issue on the project repository in order to track the changes.
+If you want to contribute to this fork, you are more than welcome to do so. Feel free to start by opening an issue on this repository to track the changes.
 
-If you find a bug, or have some feedback, let us know by opening an issue in the project repository.
+If you find a bug, or have some feedback, let us know by opening an issue in this repository.
 
-👉 [Navigate to the issue list](https://github.com/estruyf/vscode-squarl/issues).
+👉 [Navigate to the issue list](https://github.com/trevSmart/vscode-squarl/issues).
+
+For contributions to the original project, please visit the [original repository](https://github.com/estruyf/vscode-squarl).
 
 ## Changelog / Release notes
 
@@ -181,11 +189,15 @@ If you find a bug, or have some feedback, let us know by opening an issue in the
 
 [MIT](./LICENSE)
 
+## Credits
+
+This is a fork of the original [Squarl Bookmarks](https://github.com/estruyf/vscode-squarl) extension created by [Elio Struyf](https://github.com/estruyf). All credit for the original concept, design, and implementation goes to Elio and the original contributors.
+
 <br />
 <br />
 
 <p align="center">
   <a href="https://visitorbadge.io">
-    <img src="https://api.visitorbadge.io/api/VisitorHit?user=estruyf&repo=vscode-squarl&countColor=%23F05450&labelColor=%230E131F" height="25px" />
+    <img src="https://api.visitorbadge.io/api/VisitorHit?user=trevSmart&repo=vscode-squarl&countColor=%23F05450&labelColor=%230E131F" height="25px" />
   </a>
 </p>

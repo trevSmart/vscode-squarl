@@ -2,8 +2,8 @@
   "name": "vscode-squarl",
   "displayName": "Squarl Bookmarks",
   "description": "Bookmark manager for VS Code",
-  "publisher": "eliostruyf",
-  "icon": "assets/logo/squarl-128x128.png",
+  "publisher": "trevSmart",
+  "icon": "assets/logo/squarl-96x96.png",
   "preview": false,
   "version": "1.1.1",
   "badges": [
@@ -19,17 +19,17 @@
     }
   ],
   "license": "MIT",
-  "author": "Elio Struyf <elio@struyfconsulting.be> (https://www.eliostruyf.com)",
+  "author": "trevSmart (https://github.com/trevSmart) - Fork of original work by Elio Struyf <elio@struyfconsulting.be> (https://www.eliostruyf.com)",
   "sponsor": {
     "url": "https://github.com/sponsors/estruyf"
   },
-  "homepage": "https://github.com/estruyf/vscode-squarl",
+  "homepage": "https://github.com/trevSmart/vscode-squarl",
   "bugs": {
-    "url": "https://github.com/estruyf/vscode-squarl/issues"
+    "url": "https://github.com/trevSmart/vscode-squarl/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/estruyf/vscode-squarl"
+    "url": "https://github.com/trevSmart/vscode-squarl"
   },
   "engines": {
     "vscode": "^1.71.0"
@@ -224,7 +224,7 @@
         {
           "id": "squarl-view",
           "title": "Squarl",
-          "icon": "assets/logo/squarl.svg"
+          "icon": "assets/logo/squarl-sidebar.svg"
         }
       ]
     },
