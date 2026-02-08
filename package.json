@@ -1,9 +1,9 @@
 {
-  "name": "vscode-squarl",
-  "displayName": "Squarl Bookmarks",
+  "name": "vscode-squarl-forked",
+  "displayName": "Squarl Bookmarks (forked)",
   "description": "Bookmark manager for VS Code",
   "publisher": "trevSmart",
-  "icon": "assets/logo/squarl-96x96.png",
+  "icon": "assets/logo/logo.png",
   "preview": false,
   "version": "1.1.1",
   "badges": [
@@ -137,7 +137,7 @@
       }
     ],
     "configuration": {
-      "title": "Squarl Bookmarks",
+      "title": "Squarl Bookmarks (forked)",
       "properties": {
         "squarl.bookmarks": {
           "markdownDescription": "The list of bookmarks",
@@ -224,7 +224,7 @@
         {
           "id": "squarl-view",
           "title": "External Links",
-          "icon": "assets/logo/logo.png"
+          "icon": "assets/logo/logoActivityBar.png"
         }
       ]
     },
