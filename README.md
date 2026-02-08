@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Squarl Bookmarks" src="assets/logo/squarl-128x128.png">
+  <img alt="Squarl Bookmarks" src="assets/logo/logo.png">
 </p>
 
 <h1 align="center">Squarl Bookmarks</h1>
@@ -21,9 +21,9 @@
 
 Every project has various dependencies, not only the onces we use to code, but also the once around the project. Like: task lists, project management, documentation, ...
 
-In most cases, you share this information of which platforms and/or systems used with your team. What if you can bring it closer to the project? 
+In most cases, you share this information of which platforms and/or systems used with your team. What if you can bring it closer to the project?
 
-This is the purpose of Squarl Bookmarks to allow you and your team to create and share these bookmarks. Instead of opening your browser, looking for the project bookmark, and navigating to it. You can now add the bookmark in your project and navigate instantly from within Visual Studio Code to it. 
+This is the purpose of Squarl Bookmarks to allow you and your team to create and share these bookmarks. Instead of opening your browser, looking for the project bookmark, and navigating to it. You can now add the bookmark in your project and navigate instantly from within Visual Studio Code to it.
 
 You can use Squarl Bookmarks to store bookmarks personally (in VS Code `.vscode/settings.json` or the global user settings) or with your team (via a `squarl.json` file).
 
@@ -46,10 +46,6 @@ You can use the extension for personal or team purposes.
 
 When you install the extension, and open the Squarl Bookmarks panel. You will see the welcome view with the ability to add a file or link.
 
-<p align="center">
-  <img src="./assets/docs/squarl-welcome.png" alt="Welcome view" style="display: inline-block" />
-</p>
-
 Another way to add a file or link to your bookmarks list, is to use one of the commands:
 
 - Squarl: Bookmark link (`squarl.bookmark.addLink`)
@@ -57,13 +53,7 @@ Another way to add a file or link to your bookmarks list, is to use one of the c
 
 Once you've added bookmarks, the view will be updated to the bookmarks list view.
 
-<p align="center">
-  <img src="./assets/docs/squarl-list-view.png" alt="Bookmark list view" style="display: inline-block" />
-</p>
-
 > **Note**: Global bookmarks are stored in the Visual Studio Code global user settings, the project bookmarks are stored in the `.vscode/settings.json` file of the current project.
-
-![](./assets/docs/add-bookmark.gif)
 
 ### Team
 
@@ -87,11 +77,6 @@ It is a manual process to add the groups and bookmarks to the file.
 
 Once this file contains bookmarks, a team bookmarks view will appear.
 
-
-<p align="center">
-  <img src="./assets/docs/squarl-team-view.png" alt="Team bookmark view" style="display: inline-block" />
-</p>
-
 ## Commands
 
 The extension has the following commands for you to make use:
@@ -100,6 +85,7 @@ The extension has the following commands for you to make use:
 | --- | --- |
 | `squarl.bookmark.addFile` | Squarl: Bookmark file |
 | `squarl.bookmark.addLink` | Squarl: Bookmark link |
+| `squarl.bookmark.edit` | Squarl: Edit |
 | `squarl.bookmark.delete` | Squarl: Delete |
 | `squarl.bookmark.demote` | Squarl: Demote |
 | `squarl.bookmark.open` | Squarl: Open a bookmark |
@@ -165,25 +151,10 @@ Example:
 ## Contributors ✨
 
 <p align="center">
-  <strong>Original contributors to the <a href="https://github.com/estruyf/vscode-squarl">upstream project</a>:</strong><br>
-  <a href="https://github.com/estruyf/vscode-squarl/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=estruyf/vscode-squarl" />
+  <a href="https://github.com/trevSmart/vscode-squarl/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=trevSmart/vscode-squarl" />
   </a>
 </p>
-
-## Contributing / Issues / feedback
-
-If you want to contribute to this fork, you are more than welcome to do so. Feel free to start by opening an issue on this repository to track the changes.
-
-If you find a bug, or have some feedback, let us know by opening an issue in this repository.
-
-👉 [Navigate to the issue list](https://github.com/trevSmart/vscode-squarl/issues).
-
-For contributions to the original project, please visit the [original repository](https://github.com/estruyf/vscode-squarl).
-
-## Changelog / Release notes
-
-[CHANGELOG](./CHANGELOG.md)
 
 ## License
 

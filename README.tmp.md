@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Squarl Bookmarks" src="assets/logo/squarl-128x128.png">
+  <img alt="Squarl Bookmarks" src="assets/logo/logo.png">
 </p>
 
 <h1 align="center">Squarl Bookmarks</h1>
@@ -7,8 +7,13 @@
 <h2 align="center">Bookmark important files and/or links for your projects.</h2>
 
 <p align="center">
-  <a href="https://github.com/sponsors/estruyf" title="Become a sponsor" style="margin-left:10px">
-    <img src="https://img.shields.io/github/sponsors/estruyf?color=%23CE2E7C&logo=github&style=flat" alt="Sponsor the project" style="display: inline-block" />
+  <strong>This is a fork of the original <a href="https://github.com/estruyf/vscode-squarl">Squarl Bookmarks</a> extension by <a href="https://github.com/estruyf">Elio Struyf</a></strong><br>
+  <em>Maintained by <a href="https://github.com/trevSmart">trevSmart</a> with visual improvements and updates</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/sponsors/estruyf" title="Sponsor the original creator" style="margin-left:10px">
+    <img src="https://img.shields.io/github/sponsors/estruyf?color=%23CE2E7C&logo=github&style=flat" alt="Sponsor the original project" style="display: inline-block" />
   </a>
 </p>
 
@@ -16,9 +21,9 @@
 
 Every project has various dependencies, not only the onces we use to code, but also the once around the project. Like: task lists, project management, documentation, ...
 
-In most cases, you share this information of which platforms and/or systems used with your team. What if you can bring it closer to the project? 
+In most cases, you share this information of which platforms and/or systems used with your team. What if you can bring it closer to the project?
 
-This is the purpose of Squarl Bookmarks to allow you and your team to create and share these bookmarks. Instead of opening your browser, looking for the project bookmark, and navigating to it. You can now add the bookmark in your project and navigate instantly from within Visual Studio Code to it. 
+This is the purpose of Squarl Bookmarks to allow you and your team to create and share these bookmarks. Instead of opening your browser, looking for the project bookmark, and navigating to it. You can now add the bookmark in your project and navigate instantly from within Visual Studio Code to it.
 
 You can use Squarl Bookmarks to store bookmarks personally (in VS Code `.vscode/settings.json` or the global user settings) or with your team (via a `squarl.json` file).
 
@@ -41,10 +46,6 @@ You can use the extension for personal or team purposes.
 
 When you install the extension, and open the Squarl Bookmarks panel. You will see the welcome view with the ability to add a file or link.
 
-<p align="center">
-  <img src="./assets/docs/squarl-welcome.png" alt="Welcome view" style="display: inline-block" />
-</p>
-
 Another way to add a file or link to your bookmarks list, is to use one of the commands:
 
 - Squarl: Bookmark link (`squarl.bookmark.addLink`)
@@ -52,13 +53,7 @@ Another way to add a file or link to your bookmarks list, is to use one of the c
 
 Once you've added bookmarks, the view will be updated to the bookmarks list view.
 
-<p align="center">
-  <img src="./assets/docs/squarl-list-view.png" alt="Bookmark list view" style="display: inline-block" />
-</p>
-
 > **Note**: Global bookmarks are stored in the Visual Studio Code global user settings, the project bookmarks are stored in the `.vscode/settings.json` file of the current project.
-
-![](./assets/docs/add-bookmark.gif)
 
 ### Team
 
@@ -81,11 +76,6 @@ The object structure of the [group](#group-item) and [bookmark](#bookmark-item) 
 It is a manual process to add the groups and bookmarks to the file.
 
 Once this file contains bookmarks, a team bookmarks view will appear.
-
-
-<p align="center">
-  <img src="./assets/docs/squarl-team-view.png" alt="Team bookmark view" style="display: inline-block" />
-</p>
 
 ## Commands
 
@@ -142,32 +132,24 @@ Example:
 ## Contributors ✨
 
 <p align="center">
-  <a href="https://github.com/estruyf/vscode-squarl/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=estruyf/vscode-squarl" />
+  <a href="https://github.com/trevSmart/vscode-squarl/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=trevSmart/vscode-squarl" />
   </a>
 </p>
-
-## Contributing / Issues / feedback
-
-If you want to contribute, you are more than welcome to do so. Feel free to start by opening an issue on the project repository in order to track the changes.
-
-If you find a bug, or have some feedback, let us know by opening an issue in the project repository.
-
-👉 [Navigate to the issue list](https://github.com/estruyf/vscode-squarl/issues).
-
-## Changelog / Release notes
-
-[CHANGELOG](./CHANGELOG.md)
 
 ## License
 
 [MIT](./LICENSE)
+
+## Credits
+
+This is a fork of the original [Squarl Bookmarks](https://github.com/estruyf/vscode-squarl) extension created by [Elio Struyf](https://github.com/estruyf). All credit for the original concept, design, and implementation goes to Elio and the original contributors.
 
 <br />
 <br />
 
 <p align="center">
   <a href="https://visitorbadge.io">
-    <img src="https://api.visitorbadge.io/api/VisitorHit?user=estruyf&repo=vscode-squarl&countColor=%23F05450&labelColor=%230E131F" height="25px" />
+    <img src="https://api.visitorbadge.io/api/VisitorHit?user=trevSmart&repo=vscode-squarl&countColor=%23F05450&labelColor=%230E131F" height="25px" />
   </a>
 </p>
