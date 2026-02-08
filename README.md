@@ -1,29 +1,14 @@
 <p align="center">
-  <img alt="Squarl Bookmarks" src="https://raw.githubusercontent.com/trevSmart/vscode-squarl/main/assets/logo/logo.png" style="filter: hue-rotate(80deg); width: 96px; height: 48px; object-fit: cover; object-position: center;">
+  <img alt="Squarl Bookmarks (forked)" src="https://raw.githubusercontent.com/trevSmart/vscode-squarl/main/assets/logo/logo.png" style="width: 96px; height: 40px; object-fit: cover; object-position: center;">
 </p>
 
-<h1 align="center">
-  <span style="font-weight: 500">Squarl Bookmarks</span>
-  <br/>
-  <span style="font-weight: 100">(fork by trevSmart)</span>
-</h1>
+# Squarl Bookmarks (fork by trevSmart)
 
-<h2 align="center">Bookmark important files and/or links for your projects.</h2>
+This is a fork of the original <a href="https://github.com/estruyf/vscode-squarl">Squarl Bookmarks</a> extension by <a href="https://github.com/estruyf">Elio Struyf</a> maintained by <a href="https://github.com/trevSmart">trevSmart</a> with visual improvements and updates.
 
-<p>
-  <strong>This is a fork of the original <a href="https://github.com/estruyf/vscode-squarl">Squarl Bookmarks</a> extension by <a href="https://github.com/estruyf">Elio Struyf</a>.</strong>
-  <em>Maintained by <a href="https://github.com/trevSmart">trevSmart</a> with visual improvements and updates</em>
-</p>
+---
 
-## Why Squarl Bookmarks
-
-Every project has various dependencies, not only the onces we use to code, but also the once around the project. Like: task lists, project management, documentation, ...
-
-In most cases, you share this information of which platforms and/or systems used with your team. What if you can bring it closer to the project?
-
-This is the purpose of Squarl Bookmarks to allow you and your team to create and share these bookmarks. Instead of opening your browser, looking for the project bookmark, and navigating to it. You can now add the bookmark in your project and navigate instantly from within Visual Studio Code to it.
-
-You can use Squarl Bookmarks to store bookmarks personally (in VS Code `.vscode/settings.json` or the global user settings) or with your team (via a `squarl.json` file).
+## Bookmark important files and/or links for your projects
 
 ## Features
 

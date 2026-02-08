@@ -2,15 +2,13 @@
   <img alt="Squarl Bookmarks (forked)" src="https://raw.githubusercontent.com/trevSmart/vscode-squarl/main/assets/logo/logo.png" style="width: 96px; height: 40px; object-fit: cover; object-position: center;">
 </p>
 
-<h1 align="center">
-  <span style="font-weight: 500">Squarl Bookmarks</span>
-  <br/>
-  <span style="font-weight: 100">(fork by trevSmart)</span>
-</h1>
+# Squarl Bookmarks (fork by trevSmart)
+
+This is a fork of the original <a href="https://github.com/estruyf/vscode-squarl">Squarl Bookmarks</a> extension by <a href="https://github.com/estruyf">Elio Struyf</a> maintained by <a href="https://github.com/trevSmart">trevSmart</a> with visual improvements and updates.
+
+---
 
 ## Bookmark important files and/or links for your projects
-
-### This is a fork of the original <a href="https://github.com/estruyf/vscode-squarl">Squarl Bookmarks</a> extension by <a href="https://github.com/estruyf">Elio Struyf</a> maintained by <a href="https://github.com/trevSmart">trevSmart</a> with visual improvements and updates.
 
 ## Features
 
