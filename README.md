@@ -1,20 +1,18 @@
 <p align="center">
-  <img alt="Squarl Bookmarks" src="assets/logo/logo.png">
+  <img alt="Squarl Bookmarks" src="https://raw.githubusercontent.com/trevSmart/vscode-squarl/main/assets/logo/logo.png" style="width: 96px; height: 48px; object-fit: cover; object-position: center;">
 </p>
 
-<h1 align="center">Squarl Bookmarks</h1>
+<h1 align="center">
+  <span style="font-weight: 500">Squarl Bookmarks</span>
+  <br/>
+  <span style="font-weight: 100">(fork by trevSmart)</span>
+</h1>
 
 <h2 align="center">Bookmark important files and/or links for your projects.</h2>
 
-<p align="center">
-  <strong>This is a fork of the original <a href="https://github.com/estruyf/vscode-squarl">Squarl Bookmarks</a> extension by <a href="https://github.com/estruyf">Elio Struyf</a></strong><br>
+<p>
+  <strong>This is a fork of the original <a href="https://github.com/estruyf/vscode-squarl">Squarl Bookmarks</a> extension by <a href="https://github.com/estruyf">Elio Struyf</a>.</strong>
   <em>Maintained by <a href="https://github.com/trevSmart">trevSmart</a> with visual improvements and updates</em>
-</p>
-
-<p align="center">
-  <a href="https://github.com/sponsors/estruyf" title="Sponsor the original creator" style="margin-left:10px">
-    <img src="https://img.shields.io/github/sponsors/estruyf?color=%23CE2E7C&logo=github&style=flat" alt="Sponsor the original project" style="display: inline-block" />
-  </a>
 </p>
 
 ## Why Squarl Bookmarks
@@ -164,11 +162,4 @@ Example:
 
 This is a fork of the original [Squarl Bookmarks](https://github.com/estruyf/vscode-squarl) extension created by [Elio Struyf](https://github.com/estruyf). All credit for the original concept, design, and implementation goes to Elio and the original contributors.
 
-<br />
-<br />
-
-<p align="center">
-  <a href="https://visitorbadge.io">
-    <img src="https://api.visitorbadge.io/api/VisitorHit?user=trevSmart&repo=vscode-squarl&countColor=%23F05450&labelColor=%230E131F" height="25px" />
-  </a>
 </p>
