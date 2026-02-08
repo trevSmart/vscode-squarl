@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Squarl Bookmarks" src="https://raw.githubusercontent.com/trevSmart/vscode-squarl/main/assets/logo/logo.png" style="width: 96px; height: 48px; object-fit: cover; object-position: center;">
+  <img alt="Squarl Bookmarks" src="https://raw.githubusercontent.com/trevSmart/vscode-squarl/main/assets/logo/logo.png" style="filter: hue-rotate(80deg); width: 96px; height: 48px; object-fit: cover; object-position: center;">
 </p>
 
 <h1 align="center">
