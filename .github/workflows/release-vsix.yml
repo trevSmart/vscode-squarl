@@ -1,15 +1,17 @@
 name: Release VSIX to GitHub
 
 on:
-  release:
-    types:
-      - published
+  push:
+    tags:
+      - "v*"
   workflow_dispatch:
 
 jobs:
   build-and-release:
     name: Build VSIX and attach to release
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
@@ -28,9 +30,10 @@ jobs:
       - name: Package VSIX
         run: npm run vsix
 
-      - name: Upload VSIX to release
+      - name: Create release and upload VSIX
         uses: softprops/action-gh-release@v2
         with:
           files: dist/*.vsix
+          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
