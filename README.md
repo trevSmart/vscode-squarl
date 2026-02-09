@@ -1,6 +1,6 @@
-<p align="center">
-  <img alt="Squarl Bookmarks (forked)" src="https://raw.githubusercontent.com/trevSmart/vscode-squarl/main/assets/logo/logo.png" style="width: 96px; height: 40px; object-fit: cover; object-position: center;">
-</p>
+<span style="display: inline-block; background-color: white; padding: 5px; border-radius: 50%; border: 1px solid #0005; box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);">
+  <img alt="Squarl Bookmarks (forked)" src="https://raw.githubusercontent.com/trevSmart/vscode-squarl/main/assets/logo/logoActivityBar.png" style="width: 70px; background-color: transparent;" height="70px">
+</span>
 
 # Squarl Bookmarks (fork by trevSmart)
 
