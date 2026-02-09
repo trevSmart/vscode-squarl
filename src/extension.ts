@@ -9,8 +9,8 @@ import { ViewService } from './services';
 export async function activate(context: ExtensionContext) {
 	ExtensionService.getInstance(context);
 
-	// Register all the views
-	ViewService.init();
+	// Register all the views (must complete before activation returns)
+	await ViewService.init();
 
 	// Register all the commands
 	OpenBookmark.registerCommands();

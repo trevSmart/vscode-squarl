@@ -22,9 +22,7 @@ export class BookmarkView {
   private tree: TreeView<BookmarkTreeItem> | undefined;
   public _currentItems: Bookmark[] | undefined;
 
-  constructor(private viewType: BookmarkViewType) {
-    this.bindbookmarks();
-  }
+  constructor(private viewType: BookmarkViewType) {}
 
   public async currentItems() {
     if (this._currentItems && this._currentItems.length > 0) {
